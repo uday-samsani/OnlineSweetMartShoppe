@@ -10,7 +10,7 @@ public class Admin {
 	public Cart cart;
 	public Product product;
 	
-	// Constructor deault
+	// Constructor default
 	
 	public Admin() {
 		super();
