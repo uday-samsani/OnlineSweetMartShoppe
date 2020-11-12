@@ -37,7 +37,11 @@ public class SweetItem
 	public void setSweetOrder(SweetOrder sweetOrder) {
 		SweetOrder = sweetOrder;
 	}
-
+	@Override
+	public String toString() {
+		return "SweetItem [orderItemId=" + orderItemId + ", product=" + product + ", SweetOrder=" + SweetOrder + "]";
+	}
+   
 	
     
 }
