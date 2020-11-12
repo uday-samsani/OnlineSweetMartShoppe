@@ -1,6 +1,5 @@
 package com.cg.osm.service;
 
-<<<<<<< HEAD
 import java.util.List;
 
 import com.cg.osm.entites.Cart;
@@ -17,9 +16,4 @@ public interface CartService {
 	
 	public abstract List<Cart> showAllCarts(int cartId);
 
-
-=======
-public interface CartService {
-
->>>>>>> 7e34940 (Sweet Item)
 }
