@@ -1,6 +1,5 @@
 package com.cg.osm.repository;
 
-public interface ProductRepository {
 import java.util.List;
 
 import com.cg.osm.entites.Product;

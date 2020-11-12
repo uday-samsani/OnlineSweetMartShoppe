@@ -1,9 +1,5 @@
 package com.cg.osm.entites;
 
-<<<<<<< HEAD
-public class Product {
-
-=======
 import javax.persistence.Entity;
 import javax.persistence.Id;
 
@@ -118,5 +114,4 @@ public class Product {
 			return false;
 		return true;
 	}
->>>>>>> 7e34940 (Sweet Item)
 }

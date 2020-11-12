@@ -1,6 +1,5 @@
 package com.cg.osm.entites;
 
-<<<<<<< HEAD
 import java.util.List;
 
 public class Cart {
@@ -71,8 +70,4 @@ public class Cart {
 			return false;
 		return true;
 	}
-=======
-public class Cart {
->>>>>>> 7e34940 (Sweet Item)
-
 }
