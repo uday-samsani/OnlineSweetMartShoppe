@@ -1,5 +1,9 @@
 Manifest-Version: 1.0
+<<<<<<< HEAD
 Built-By: Nikhil
+=======
+Built-By: HP
+>>>>>>> 7e34940 (Sweet Item)
 Build-Jdk: 14.0.2
 Created-By: Maven Integration for Eclipse
 
