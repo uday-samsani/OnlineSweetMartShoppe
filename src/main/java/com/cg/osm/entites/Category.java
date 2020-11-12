@@ -1,10 +1,15 @@
 package com.cg.osm.entites;
 
+@Entity
 public class Category {
 	
-	
+	@Id
 	private int categoryId;
 	private String name;
+	
+	public Category() {
+		super();
+	}
 	
 	//constructors
 	public Category(int categoryId, String name) {
