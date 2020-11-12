@@ -41,7 +41,4 @@ public class SweetItem
 	public String toString() {
 		return "SweetItem [orderItemId=" + orderItemId + ", product=" + product + ", SweetOrder=" + SweetOrder + "]";
 	}
-   
-	
-    
 }
