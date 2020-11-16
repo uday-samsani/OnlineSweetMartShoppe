@@ -10,7 +10,7 @@ public class ProductServiceImpl implements ProductService {
 
 	private ProductRepository dao;
 
-	ProductServiceImpl() {
+	public ProductServiceImpl() {
 		dao = new ProductRepositoryImpl();
 	}
 

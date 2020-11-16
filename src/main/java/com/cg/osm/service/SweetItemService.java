@@ -6,11 +6,13 @@ import com.cg.osm.entites.SweetItem;
 
 public interface SweetItemService{
 
-	public abstract void addSweetItem(SweetItem sweetItem);
+	public SweetItem addSweetItem(SweetItem sweetItem);
 	
-	public abstract void updateSweetItem(SweetItem sweetItem);
+	public SweetItem updateSweetItem(SweetItem sweetItem);
 	
-	public abstract void cancelSweetItem(int sweetItem);
+	public SweetItem cancelSweetItem(int sweetItem);
 	
-	public abstract List<SweetItem> showAllSweetItems();
+	public  List<SweetItem> showAllSweetItems();
+	
+	
 }

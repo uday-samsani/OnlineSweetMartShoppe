@@ -6,14 +6,15 @@ import com.cg.osm.entites.Cart;
 
 public interface CartService {
 
-	public abstract void addCart(Cart cart);
+	public Cart addCart(Cart cart);
 
-	public abstract void updateCart(Cart cart);
+	public Cart updateCart(Cart cart);
 	
-	public abstract void cancelCart(int cartId);
+	public Cart cancelCart(int cartId);
 
-	public abstract List<Cart> showAllCarts();
+	public List<Cart> showAllCarts();
 	
-	public abstract List<Cart> showAllCarts(int cartId);
+	public List<Cart> showAllCarts(int cartId);
+
 
 }

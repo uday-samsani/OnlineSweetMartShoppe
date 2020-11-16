@@ -6,12 +6,9 @@ import com.cg.osm.entites.Category;
 
 public interface CategoryRepository {
 	
-	
-	public abstract void addCategory(Category category);
-	public abstract void updateCategory(Category category);
-	public abstract void cancelCategory(int categoryId);
-	public abstract List<Category> showAllCategorys();
-	public abstract double calculateTotalCost(int categoryId);
-	
+	public Category addCategory(Category category);
+	public Category updateCategory(Category category);
+	public Category cancelCategory(int categoryId);
+	public List<Category> showAllCategorys();
 
 }

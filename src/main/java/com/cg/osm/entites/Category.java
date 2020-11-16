@@ -1,5 +1,8 @@
 package com.cg.osm.entites;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
 @Entity
 public class Category {
 	
@@ -7,16 +10,17 @@ public class Category {
 	private int categoryId;
 	private String name;
 	
+	//constructors
 	public Category() {
 		super();
 	}
 	
-	//constructors
 	public Category(int categoryId, String name) {
 		super();
 		this.categoryId = categoryId;
 		this.name = name;
 	}
+	
 	//generate getters and setters
 	public int getCategoryId() {
 		return categoryId;
@@ -30,6 +34,7 @@ public class Category {
 	public void setName(String name) {
 		this.name = name;
 	}
+	
 	@Override
 	public int hashCode() {
 		final int prime = 31;
@@ -50,7 +55,5 @@ public class Category {
 			return false;
 		return true;
 	}
-		
-	
 
 }

@@ -1,6 +1,11 @@
 package com.cg.osm.entites;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Admin {
+	@Id
 	private String id;
 	private String password;
 	private Customer customer;
@@ -10,8 +15,7 @@ public class Admin {
 	public Cart cart;
 	public Product product;
 	
-	// Constructor default
-	
+	// Constructor default  
 	public Admin() {
 		super();
 	}

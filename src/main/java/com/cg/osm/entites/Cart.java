@@ -2,11 +2,15 @@ package com.cg.osm.entites;
 
 import java.util.List;
 
+import javax.persistence.Entity;
+import javax.persistence.Id;
+
+@Entity
 public class Cart {
-	private double grantTotal;
+	@Id
 	private int cartId;
 	private int productCount;
-	private double total;
+	private double grantTotal, total;
 	private List<Product> listProduct;
 	public Cart(double grantTotal, List<Product> listProduct, int cartId, int productCount, double total) {
 		super();

@@ -6,10 +6,10 @@ import com.cg.osm.entites.Customer;
 
 public interface CustomerService {
 	
-	public  abstract void addCustomer(Customer customer);
-	public  abstract void updateCustomer(Customer customer);
-	public  abstract void cancelCustomer(Customer customer);
-	public  abstract List<Customer> showAllCustomers();
-	public  abstract List<Customer> showAllCustomers(int customerId);
+	public Customer addCustomer(Customer customer);
+	public Customer updateCustomer(Customer customer);
+	public Customer cancelCustomer(int customer);
+	public List<Customer> showAllCustomers();
+	public List<Customer> showAllCustomers(int customerId);
 
 }
